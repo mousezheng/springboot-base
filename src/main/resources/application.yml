@@ -1,0 +1,17 @@
+server:
+#配置服务器启动端口
+    port: 8083
+#配置访问的上下文路径，就是localhost:8083后面需要的上下文路径
+#已废弃  context-path: /helloworld
+    servlet:
+        context-path: /b
+
+weixin:
+    appId: wxe344104edb9b864e
+    appSecret: 35aa0f579554f3f5f133e708fdc6675e
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/base?useUnicode=true&characterEncoding=utf8
+        username: root
+        password: 123456
